@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    display: flex;
+}
+
+.listacontactos {
+    background-color: #fff;
+    width: 40vh;
+    min-height: 100vh; 
+    min-width: 200px;
+    border-right: 1px solid #BEC1BB;
+}
+
+
+.Principal{
+    background-color: #E8EBE4;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Principal img {
+    width: 30%;
+    padding: 1rem;
+    border-radius: 8%;
+    min-width: 30vh;
+}
+
+.Principal h2 {
+    font-size: 45px;
+    font-weight: 400;
+    font-family: roboto, sans-serif;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.Principal p {
+    font-size: 16px;
+    font-family: open-sands, sans-serif;
+    text-align: center;
+    font-weight: 300;
+}
+/* USER CONECTADO */
+.user-conectado{
+    display: flex;
+    padding: 0.3rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px  solid #BEC1BB;
+}
+
+.avatar-user-conectado img {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    border: 2px solid #E8EBE4;
+}
+
+.datos-user-conectado {
+    width: 100%;
+    padding: 0 0.5rem;
+  
+}
+
+.nombre-user-conectado { 
+    color: #1b1f21;
+    font-size: 16px;
+    font-family: roboto, sans-serif;
+    font-weight: 300;
+}
+.status-user-conectado {
+    color: #BEC1BB;
+    font-size: 10px;
+    font-family: OpenSans,sans-serif;
+    font-weight: 200;
+}
+
+/*ICONOS*/
+
+.ico-user-conectado {
+    display: flex;
+    justify-content: flex-end;
+    color: #BEC1BB;
+    
+}
+
+.ico-user-conectado i{
+    padding-right: 0.5rem;
+ }
+
+/* BOTON */
+.btn-nuevo-chat {
+    background-color: #A491D2;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.8rem;
+    width: 100%;
+    border: 0;
+    
+}
+.btn-nuevochat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    border-bottom: 1px solid #BEC1BB;
+}
+
+.btn-nuevo-chat:hover {
+    background-color: #CDC3E6;
+}
+
+.btn-nuevo-chat:focus {
+    background-color: #BEC1BB;
+}
+
+/* USER CONTACTO*/
+
+.contacto{
+    display: flex;
+    padding: 0.3rem 1rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px  solid #BEC1BB;
+}
+
+.avatar-user-contacto img {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    border: 2px solid #E8EBE4;
+}
+
+.datos-user-contacto {
+    width: 100%;
+    padding: 0 0.5rem;
+    font-family: open-sands,sans-serif;
+}
+
+.nombre-user-contacto { 
+    color: #1b1f21;
+    font-size: 16px;
+    font-family: roboto, sans-serif;
+    font-weight: 300;
+}
+.status-user-contacto {
+    color: #1b1b1b;
+    font-size: 12px;
+}
